@@ -1,0 +1,21 @@
+.user {
+  margin-top: -30px;
+}
+
+.info-value {
+  color: #999999;
+}
+.edit-icon:hover,
+.edit-text:hover {
+  color: #1d1d1d;
+}
+
+.rent-info .book,
+.rent-info .desk,
+.model-container {
+  border: 1px solid #d3d3d3;
+}
+
+.avatar-active {
+  background-color: #d9c5b6;
+}

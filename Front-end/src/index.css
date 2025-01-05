@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: MuseoSlabFree, Rockwell, -apple-system, ".SFNSText-Regular",
+    "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: MuseoSlabFree;
+  font-style: normal;
+  font-weight: 500;
+  src: url(./resources/fonts/museo-slab-500.woff) format("woff"),
+    url(./resources/fonts/museo-slab-500.ttf) format("truetype");
+}
+
+/* Override base style to work with Ant Design */
+svg {
+  vertical-align: initial;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background-color: #fff;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

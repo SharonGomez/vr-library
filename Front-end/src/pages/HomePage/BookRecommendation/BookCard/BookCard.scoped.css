@@ -1,0 +1,89 @@
+.book-card {
+  width: 23%;
+}
+
+.figure {
+  color: #efefef;
+  border-radius: 1.5% 4% 2% 3%;
+  box-shadow: 3px 3px 2px 2px #1d1d1d;
+}
+
+.figure * {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.figure .cover {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 30%
+  );
+}
+
+.figure figcaption {
+  transform: translate(-50%, -50%);
+  background-color: #efefef;
+  z-index: 1;
+}
+
+.figure h3 {
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+.figure h3.hover {
+  color: #efefef;
+}
+
+.figure img {
+  border-radius: 1.5% 4% 2% 3%;
+  -webkit-transition: background-color 1s, -webkit-transform 160ms;
+  -moz-transition: background-color 1s, -moz-transform 160ms;
+  transition: background-color 1s, transform 160ms;
+}
+
+.figure:hover .home-book-thumbnail,
+.figure.hover img {
+  border-radius: 1.5% 4% 2% 3%;
+  transform: scale(1.3) rotate(-3deg);
+}
+
+.figure h3 {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  line-height: 10px;
+  letter-spacing: 2px;
+}
+
+.figure h3.hover {
+  color: #efefef;
+  font-weight: 700;
+}
+
+.figure:hover > img,
+.figure.hover > img {
+  opacity: 0.6;
+}
+
+.figure .title {
+  transform: translatey(50%);
+}
+.figure .hover {
+  transform: translatey(50%);
+}
+
+.figure:hover figcaption,
+.figure.hover figcaption {
+  background-color: #1d1d1d;
+}
+
+.figure:hover .title,
+.figure.hover .title {
+  transform: translateY(-150%);
+}
+
+.figure:hover .hover,
+.figure.hover .hover {
+  transform: translateY(-50%);
+}

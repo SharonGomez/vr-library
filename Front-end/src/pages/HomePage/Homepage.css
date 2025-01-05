@@ -1,0 +1,31 @@
+.homepage {
+  max-width: 1000px;
+  min-width: 800px;
+  width: 60%;
+  margin: 0 auto;
+}
+.reservation {
+  overflow: hidden;
+  width: 100%;
+}
+
+.reservation .item * {
+  transition: all 0.2s ease;
+}
+
+.item .btn {
+  background-color: #ffffff;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  line-height: 3rem;
+}
+
+.item img {
+  width: 100%;
+}
+
+.btn:hover {
+  box-shadow: 3px 5px 5px #1d1d1d;
+  color: #934b00;
+  border-radius: 1rem;
+}
