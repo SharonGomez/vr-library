@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Backup Folders
+
+*[Dd]o[Nn]ot*/*
+*[Dd]ont[Ss]hip*/*
